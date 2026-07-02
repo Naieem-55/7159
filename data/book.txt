@@ -1,0 +1,38 @@
+# Chapter 4: Linear Regression
+
+Linear models are the simplest parametric methods and always deserve the right attention,
+because many problems, even intrinsically non-linear ones, can be easily solved with these
+models. As discussed previously, a regression is a prediction where the target is continuous
+and its applications are several, so it's important to understand how a linear model can fit
+the data, what its strengths and weaknesses are, and when it's preferable to pick an
+alternative. In the last part of the chapter, we're going to discuss an interesting method to
+work efficiently with non-linear data using the same models.
+
+## Linear models
+
+Consider a dataset of real-values vectors. Each input vector is associated with a real value yi.
+A linear model is based on the assumption that it's possible to approximate the output
+values through a regression process based on the rule that our dataset and all other unknown
+points lie on a hyperplane, and the maximum error is proportional to both the training
+quality and the adaptability of the original dataset. One of the most common problems arises
+when the dataset is clearly non-linear and other models have to be considered (such as
+neural networks or kernel support vector machines).
+
+### A bidimensional example
+
+Let's consider a small dataset built by adding some uniform noise to the points belonging to
+a segment bounded between -6 and 6. The original equation is: y = x + 2 + n, where n is a
+noise term.
+
+# Chapter 5: Logistic Regression
+
+(No excerpt provided yet — this chapter should cover the sigmoid function and the
+scikit-learn `C` parameter, but that text has not been supplied to the indexer.)
+
+# Chapter 6: Naive Bayes
+
+(No excerpt provided.)
+
+# Chapter 7: Support Vector Machines
+
+(No excerpt provided.)
